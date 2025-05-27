@@ -96,3 +96,70 @@ function getMatchingLetters(str) {
   return matches;
 }
  console.log(getMatchingLetters("dishangimhan"));
+
+
+ /* 9. Implement a function to find the sum of all the numbers in an array. 
+ */
+
+function findSum(arr) { 
+
+  return arr.reduce((sum, num) => sum + num, 0); 
+
+} 
+/* 
+10.Implement a function that finds the maximum number in an array.  */
+
+function findMaxNumber(arr) { 
+
+  let max = arr[0]; 
+
+  for (let i = 1; i < arr.length; i++) { 
+
+    if (arr[i] > max) { 
+
+      max = arr[i]; 
+
+    } 
+  }
+
+  return max;
+}
+
+
+/* 11.Write a function that returns a new array containing only the unique elements from an input array. */
+
+function getUniqueElements(inputArray) { 
+
+  return [...new Set(inputArray)]; 
+
+} 
+
+/* 12.Implement a function that returns the average value of numbers in an array.  */
+
+function calculateAverage(numbers) { 
+
+  let sum = 0; 
+
+  for (let number of numbers) { 
+
+    sum += number; 
+
+  } 
+
+  return sum / numbers.length; 
+
+} 
+/* 
+
+13.Write a function that sorts an array of strings in alphabetical order. */ 
+
+function sortStrings(arr) { 
+
+  return arr.slice().sort(); 
+
+}
+
+
+14.
+
+
