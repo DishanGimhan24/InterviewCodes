@@ -160,6 +160,8 @@ function sortStrings(arr) {
 }
 
 
-14.
+/* 14.Get even numbers:Get even numbers: */
+
+
 
 
