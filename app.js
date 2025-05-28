@@ -163,5 +163,21 @@ function sortStrings(arr) {
 /* 14.Get even numbers:Get even numbers: */
 
 
+function getEvenNumbers(numbers) {
+  return numbers.filter(num => num % 2 === 0);
+}
+
+const numbers = [1, 2, 3, 4, 5, 6];
+
+/* console.log(getEvenNumbers(numbers)); */ // ✅ Call the function
 
 
+
+/* 15. Sum of even numbers: */
+
+function sumEvenNumbers(arr){
+
+  return arr.filter(num=>num%2===0).reduce((acc+num), acc+num,0)
+}
+
+console.log(sumEvenNumbers(numbers));
